@@ -1,0 +1,25 @@
+{
+  "id": "c58a506c-f4c4-4983-86ad-4ebe4cb40255",
+  "version": "2.0",
+  "name": "LoginTest",
+  "url": "https://practicetestautomation.com/practice-test-login/",
+  "tests": [{
+    "id": "fe836a2b-a508-4000-872b-550c91544a42",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "6a4c07a3-c756-4af3-a0b3-f693c6e4ae4f",
+    "name": "loginTest",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "6648e61e-bca4-4b30-80c0-d82cfe1bcf94",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe836a2b-a508-4000-872b-550c91544a42"]
+  }],
+  "urls": [],
+  "plugins": []
+}

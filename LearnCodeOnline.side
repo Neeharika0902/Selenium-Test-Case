@@ -1,0 +1,468 @@
+{
+  "id": "30e2cd13-a270-4a80-ac7c-afe8588c22b6",
+  "version": "2.0",
+  "name": "LearnCodeOnline",
+  "url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+  "tests": [{
+    "id": "339724f4-5624-4faa-9a1a-2ff8bdb6e144",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "9cdbbadd-2215-4521-9cb3-5c5a806fe28d",
+    "name": "TestCase1",
+    "commands": [{
+      "id": "81e19338-1bb2-4661-8fbd-5897306b83bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.learncodeonline.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78316234-9676-4b4b-acbc-891529d85344",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0ae23f0-70cc-42ce-b429-81d34b37ac3f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "LearnCodeOnline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f51776b5-ea6c-476b-9ecb-a40d8d96c2d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-6",
+      "targets": [
+        ["css=.h-6", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2bf9c82-1814-4eea-a974-12c553f7e7f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.h-6",
+      "targets": [
+        ["css=.h-6", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2246d732-4c5c-4eed-8811-ebb40df9cf48",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.h-6",
+      "targets": [
+        ["css=.h-6", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81393490-d7ad-48a2-80b9-86ce2e55d178",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login/Signup",
+      "targets": [
+        ["linkText=Login/Signup", "linkText"],
+        ["css=.hover\\3Atext-\\[\\#F2F2F2\\]:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Login/Signup')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mobile-menu']/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[7]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f949b3d-678d-4184-9b46-9b4a66873451",
+      "comment": "",
+      "command": "click",
+      "target": "name=Email*",
+      "targets": [
+        ["name=Email*", "name"],
+        ["css=.css-1iho84d > .css-1klprep", "css:finder"],
+        ["xpath=//input[@name='Email*']", "xpath:attributes"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/div/div/div[2]/div[2]/div[4]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1ccd16-306e-4ae0-8e60-e46dc3381167",
+      "comment": "",
+      "command": "type",
+      "target": "name=Email*",
+      "targets": [
+        ["name=Email*", "name"],
+        ["css=.css-1iho84d > .css-1klprep", "css:finder"],
+        ["xpath=//input[@name='Email*']", "xpath:attributes"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/div/div/div[2]/div[2]/div[4]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chintan6254@gmail.com"
+    }, {
+      "id": "d09fcec3-f7d3-4501-91c7-3a32d5b37369",
+      "comment": "",
+      "command": "type",
+      "target": "name=Password*",
+      "targets": [
+        ["name=Password*", "name"],
+        ["css=.css-1iho84d > .css-1klprep", "css:finder"],
+        ["xpath=//input[@name='Password*']", "xpath:attributes"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/div/div/div[2]/div[2]/div[5]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Welcome@123"
+    }, {
+      "id": "d40a6334-3f2d-4ece-bc50-6da12c8e8883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ysndn8 > .css-f1ogtk",
+      "targets": [
+        ["css=.css-ysndn8 > .css-f1ogtk", "css:finder"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/div/div/div[2]/div[2]/div[7]/button/div", "xpath:idRelative"],
+        ["xpath=//div[7]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "499f39c0-1da1-40dd-9ed2-3852dfe8a417",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1kw0tju:nth-child(7) > .css-zp4e98:nth-child(1) .css-9taffg",
+      "targets": [
+        ["css=.css-1kw0tju:nth-child(7) > .css-zp4e98:nth-child(1) .css-9taffg", "css:finder"],
+        ["xpath=(//img[@alt='https://play.google.com/store/apps/details?id=in.learncodeonline.lco&hl=en'])[2]", "xpath:img"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div[3]/footer/div/div/div[2]/div[6]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e54c80-f39e-4a96-bb5a-883218785c05",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-1kw0tju:nth-child(7) > .css-zp4e98:nth-child(1) .css-9taffg",
+      "targets": [
+        ["css=.css-1kw0tju:nth-child(7) > .css-zp4e98:nth-child(1) .css-9taffg", "css:finder"],
+        ["xpath=(//img[@alt='https://play.google.com/store/apps/details?id=in.learncodeonline.lco&hl=en'])[2]", "xpath:img"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div[3]/footer/div/div/div[2]/div[6]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eda3c735-de90-448b-9f99-1b1379373a14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vurnku > svg > path",
+      "targets": [
+        ["css=.css-vurnku > svg > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fbddb14-2e71-4426-b68e-6e64709ce5de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1fg8fgk > .css-9taffg",
+      "targets": [
+        ["css=.css-1fg8fgk > .css-9taffg", "css:finder"],
+        ["xpath=//img[@alt='LearnCodeOnline']", "xpath:img"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/nav/div/a/p/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92f0052-c7a0-4ab2-a850-e09e79ea6d08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vurnku > svg",
+      "targets": [
+        ["css=.css-vurnku > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0576f85f-5589-4c12-809e-9c1547812c7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vurnku > svg > path",
+      "targets": [
+        ["css=.css-vurnku > svg > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a32fddbf-9028-455c-b09f-90244ec813ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1dypf84:nth-child(2)",
+      "targets": [
+        ["css=.css-1dypf84:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/nav/div/div[4]/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9280586d-19fc-404e-9ad9-205b717cbf1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vurnku > svg",
+      "targets": [
+        ["css=.css-vurnku > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be68d58-4dca-40e5-b503-01b1744eafbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1dypf84:nth-child(11) .css-1275bzl",
+      "targets": [
+        ["css=.css-1dypf84:nth-child(11) .css-1275bzl", "css:finder"],
+        ["xpath=//div[@id='root-identifier-collection']/div/div/div/nav/div/div[4]/ul/li[9]/div/p", "xpath:idRelative"],
+        ["xpath=//li[9]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "874461c0-683d-4e6c-ae74-d83f83983977",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "49f75966-1efe-468d-a80e-c10b223ee0a3",
+    "name": "AccessorTest",
+    "commands": [{
+      "id": "235df815-7927-43c6-a24f-48fb32df5bdc",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.learncodeonline.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3907ade6-ec4a-4ecb-9e76-315bc0013d85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "791943e7-7b0b-4152-ad8e-d2f3781d8d3c",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "LearnCodeOnline",
+      "targets": [],
+      "value": "varTitle"
+    }, {
+      "id": "6475a3d6-63af-4fd3-a4d9-ce60c7e414b1",
+      "comment": "",
+      "command": "echo",
+      "target": "${varTitle}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "126ecaec-7871-42d7-a7fb-0cbc180195e5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.font-\\[\\'Sorce",
+      "targets": [
+        ["css=.font-\\[\\'Sorce", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'LearnCodeOnline')]", "xpath:innerText"]
+      ],
+      "value": "varName"
+    }, {
+      "id": "05d93a0b-328d-4f95-91d8-cc3041b2281d",
+      "comment": "",
+      "command": "echo",
+      "target": "${varName}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7775d305-25cd-43aa-b449-be7279c4769c",
+      "comment": "",
+      "command": "storeValue",
+      "target": "css=.-ml-2",
+      "targets": [
+        ["css=.-ml-2", "css:finder"],
+        ["xpath=//input[@value='Jajva']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "varTextvalue"
+    }, {
+      "id": "0be8950d-a17f-429b-b51a-1dae4660331e",
+      "comment": "",
+      "command": "echo",
+      "target": "${varTextValue}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b871093-f2dc-465b-a0ad-3323c519b348",
+    "name": "assertTestCase",
+    "commands": [{
+      "id": "dcb0e772-5ce7-47ac-9e22-f221e7ed50a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.learncodeonline.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27cf7b08-e3f9-4a36-9ac5-1c52e901dd29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d86be0d1-27c0-4cfa-b91e-bfbcc19f7991",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "LearnCodeOnline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84101d17-a186-43e7-82c4-79786a452f98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-0",
+      "targets": [
+        ["css=.ml-0", "css:finder"],
+        ["xpath=//img[@alt='lco-logo']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/div/di/div/div/div/div/span/img", "xpath:idRelative"],
+        ["xpath=//div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c7f0e5b-b941-417b-84ea-8030c78ff61a",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Lea",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6152010f-29ee-491b-915e-690b7ecd568e",
+    "name": "verifyTestcase",
+    "commands": [{
+      "id": "7de77ab6-7ea4-4149-a696-9a470cebd394",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.learncodeonline.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8c2d010-2149-4401-8136-1a96728fd69e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bb9f518-f0f8-49bc-a96c-60453a957e90",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "LearnCodeOnli",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dbe2b2d-7dea-4dca-9822-0f0d47836186",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-0",
+      "targets": [
+        ["css=.ml-0", "css:finder"],
+        ["xpath=//img[@alt='lco-logo']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div/div/di/div/div/div/div/span/img", "xpath:idRelative"],
+        ["xpath=//div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94397137-4bee-4729-b8b1-b267b30642ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-ml-2",
+      "targets": [
+        ["css=.-ml-2", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c494cc83-0d64-4212-8b74-eb41ecbf9e8f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.-ml-2",
+      "targets": [
+        ["css=.-ml-2", "css:finder"],
+        ["xpath=//input[@value='Hello']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hello"
+    }]
+  }, {
+    "id": "abe96f24-e637-4255-9042-3c1f6a5862c5",
+    "name": "WaitTestCase",
+    "commands": [{
+      "id": "3c34ded8-70d5-42f6-85f9-22af54a3cfa4",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/dynamic_loading/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f893a280-182e-41cb-a12e-b3f82ed1b586",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19ed269e-dcf8-41ba-8bec-e4ca84f66380",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//div[@id='start']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8acba2ce-d4c0-485d-9235-d8f6d617863e",
+      "comment": "",
+      "command": "waitForElementNotVisible",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "2b055859-6b4e-4ba4-b0f1-dfd7f4aa2696",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": "Hello World!"
+    }]
+  }],
+  "suites": [{
+    "id": "85a52862-2062-46c3-986d-bf0d77c5b3ed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["339724f4-5624-4faa-9a1a-2ff8bdb6e144"]
+  }],
+  "urls": ["https://web.learncodeonline.in/", "https://the-internet.herokuapp.com/dynamic_loading/1"],
+  "plugins": []
+}

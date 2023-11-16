@@ -1,0 +1,270 @@
+{
+  "id": "b3f42821-0bbf-437b-acbd-9dc46c8e5694",
+  "version": "2.0",
+  "name": "ControlFlows",
+  "url": "https://www.calculator.net/calorie-calculator.html",
+  "tests": [{
+    "id": "4a80266d-cc8b-4db2-ab11-6e80ae138b8e",
+    "name": "caloeriesCalculatorTest",
+    "commands": [{
+      "id": "a07e702a-b7b1-4d6a-9559-0acb900cb5f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.calculator.net/calorie-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d44df37-57f3-4fc8-be8d-67b53990b7f8",
+      "comment": "",
+      "command": "store",
+      "target": "M",
+      "targets": [],
+      "value": "varGender"
+    }, {
+      "id": "350dff8d-d5e3-480f-a53d-76a51fb15893",
+      "comment": "",
+      "command": "if",
+      "target": "${varGender}===\"F\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a424732d-5e8d-44b8-8b70-8c14a43d2473",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .cbcontainer:nth-child(2) > .rbmark",
+      "targets": [
+        ["css=td > .cbcontainer:nth-child(2) > .rbmark", "css:finder"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0392862e-d72b-416e-b892-5e9148b7e807",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [
+        ["id=cactivity", "id"],
+        ["name=cactivity", "name"],
+        ["css=#cactivity", "css:finder"],
+        ["xpath=//select[@id='cactivity']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/table[4]/tbody/tr/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c0c353-4110-4062-a4b5-f69f2d97356a",
+      "comment": "",
+      "command": "select",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": "label=Very Active: intense exercise 6-7 times/week"
+    }, {
+      "id": "28a1a0e7-fd47-46f2-81e4-ff9d490f3395",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(6)",
+      "targets": [
+        ["css=option:nth-child(6)", "css:finder"],
+        ["xpath=//option[@value='1.725']", "xpath:attributes"],
+        ["xpath=//select[@id='cactivity']/option[6]", "xpath:idRelative"],
+        ["xpath=//option[6]", "xpath:position"],
+        ["xpath=//option[contains(.,'Very Active: intense exercise 6-7 times/week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f51233-05c2-4cd8-9a08-46e41e30ab71",
+      "comment": "",
+      "command": "else",
+      "target": "${varGender}===\"M\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0e31691-b92d-4983-8b96-b49451ab0901",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .cbcontainer:nth-child(1) > .rbmark",
+      "targets": [
+        ["css=td > .cbcontainer:nth-child(1) > .rbmark", "css:finder"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7abd4a98-ead5-44bf-8b60-f627e53c0c49",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [
+        ["id=cactivity", "id"],
+        ["name=cactivity", "name"],
+        ["css=#cactivity", "css:finder"],
+        ["xpath=//select[@id='cactivity']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/table[4]/tbody/tr/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b309e62-32c5-4647-8b44-0d3a2ca7717a",
+      "comment": "",
+      "command": "select",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": "label=Extra Active: very intense exercise daily, or physical job"
+    }, {
+      "id": "721d9782-4343-4879-bb95-6ebdf2bd5201",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(7)",
+      "targets": [
+        ["css=option:nth-child(7)", "css:finder"],
+        ["xpath=//option[@value='1.9']", "xpath:attributes"],
+        ["xpath=//select[@id='cactivity']/option[7]", "xpath:idRelative"],
+        ["xpath=//option[7]", "xpath:position"],
+        ["xpath=//option[contains(.,'Extra Active: very intense exercise daily, or physical job')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "661fafe2-b437-4789-90df-48df2a124361",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "46db7ce9-c5d6-47ff-a101-5f9385ef4c28",
+    "name": "whileTest",
+    "commands": [{
+      "id": "ca087774-b28c-412c-953f-d64ec46fd9cb",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "543fede6-4a83-47aa-8836-311f78f8942a",
+      "comment": "",
+      "command": "while",
+      "target": "${counter}<=5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "accde797-1657-4036-adfb-13d260b5e4bc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${counter}+1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "85a4ba14-119d-48af-bfe5-269ba2427187",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8a568ef-9024-438a-8b03-bb5c86b8f3b0",
+      "comment": "",
+      "command": "echo",
+      "target": "Value of counter of: ${counter}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a054b3d-2508-44df-bd58-6cd58f05838a",
+    "name": "DoloopTest",
+    "commands": [{
+      "id": "ba282359-dacb-48c4-adaa-df8a54b5eebf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "b60c1615-973c-49e8-a226-395de6e9c394",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "368c2d74-a7d3-4d37-b751-268d7078b142",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${counter}+1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "37d0fa51-d4fd-4b64-a156-c80f3d0d416d",
+      "comment": "",
+      "command": "echo",
+      "target": "value is: ${counter}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "957f6411-824e-46cd-be64-dd6e9a6b0753",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${counter}<10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29c7aa4f-9e11-43dd-b7f4-df5b5516ffd6",
+      "comment": "",
+      "command": "echo",
+      "target": "Final Valueof counter is: ${counter}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5a39b269-cf36-4217-8d24-7ab1338c7745",
+    "name": "timeLoopTest",
+    "commands": [{
+      "id": "9a5fbd29-1a0a-4229-9a46-311c36398c66",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 100",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "f8775eaf-1d7a-4e26-8365-be31fb473eff",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1be03575-cf53-4a01-a7ef-8f609f2407a1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${counter}+1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "06a780ed-04b0-4fc1-98a0-0fd54c17bc3b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5145684f-78f6-409c-8e9a-deaaf3d47c26",
+      "comment": "",
+      "command": "echo",
+      "target": "Final Value is: ${counter}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "069980c1-7c37-4bd7-837a-6266f742f600",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.calculator.net/calorie-calculator.html"],
+  "plugins": []
+}
